@@ -42,8 +42,8 @@ function calcularEstatica(){
 }
 
 function calcularDinamica(){
-    const numeroMaterial = parseInt(document.getElementById("numeroMaterial").value);
-    const angulo = parseFloat(document.getElementById("angulo").value);
+    const numeroMaterial = parseInt(document.getElementById("numeroMaterial2").value);
+    const angulo = parseFloat(document.getElementById("angulo2").value);
 
     if (isNaN(numeroMaterial) || numeroMaterial < 1 || numeroMaterial > materiales.length) {
         document.getElementById("resultado").value = "Selecciona un numero valido entre 1 y 11";
