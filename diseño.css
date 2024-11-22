@@ -1,0 +1,302 @@
+*{
+    padding: 0; 
+    margin: 0; 
+    font-family: 'Anek Gurmukhi';
+}
+#cabecera{ 
+    font-size: 30px;
+    display: flex;
+    text-align: center;
+    letter-spacing: 4px;
+    text-transform: capitalize;    
+    background: #658354;
+    text-decoration-color: #000000;
+    justify-content: space-around;
+    padding: 10px;
+}
+
+#menu1 {
+    display: flex;
+    position: flex;
+    align-items: center;
+    height: 10vh;
+    justify-content: space-around;
+    background-size: cover;
+}
+#logo{
+    margin-top: 5px;
+    width: 60px;
+    height: 60px;
+}
+#ubilog{
+    width: 25px;
+    height: 30px;
+}
+#usuario{
+    width: 30px;
+    height: 30px;
+}
+#carrito{
+    width: 30px;
+    height: 30px;
+}
+#menu2 {
+    display: flex;
+    margin-right: 10px;
+    align-items: center;
+    justify-content: space-between;
+    width: 100%;
+}
+
+#menu2 a {
+    align-items: center;
+    display: block;
+    padding: 20px 20px;
+    color: #000;
+    background: #75975E;
+    text-decoration: none;
+    text-transform: uppercase;
+    font-size: 20px;
+}
+#menu2 a:hover {
+    background: white;
+    color: #658354;
+}
+#menu2{
+    text-align: center;
+    letter-spacing: 4px;
+    text-transform: capitalize;    
+    background: #75975E;
+    text-decoration-color: #000000;
+    justify-content: space-around;
+    
+}
+.agregar {
+    display: inline-block;
+    margin-top: 15px;
+    padding: 10px 40px;
+    border: 2px solid #658354;
+    color: #fff;
+    border-radius: 7px;
+    text-decoration: none;
+    background: #75975E;
+    margin-bottom: 15px;
+}
+
+.agregar:hover {
+   background: white;
+   color: #658354;
+}
+.producto{
+    font-size: 20px;
+    text-align: center;
+    width: 33.08%;
+}
+.producto div{
+    padding: 5px 0px 5px 0px;
+}
+.producto img{
+    height: 200px   ;
+    width: 300px;
+    padding-top: 10px;
+}
+.topr{
+    position: relative;
+    width: 100%;
+}
+.precio{
+    color: darkslategray;
+}
+.carrusel{
+    margin: 10px 0px 30px 0px;
+}
+.titulos{
+    text-align: center;
+    font-size: 25px;
+    margin: 30px 0px 10px 0px;
+    font-weight: 600;
+    padding-top: 15px;
+    height: 10%;
+}
+.todo{
+    width: 81%;
+    padding: 0;
+    left: 9.5%;
+    position: relative;
+    box-shadow: 0 2px 4px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+.carrusel{
+    width: 81%;
+    padding: 0;
+    left: 9.5%;
+    position: relative;
+    box-shadow: 0 2px 4px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+#piedepagina {
+    background-color: #C7DDB5;
+    padding: 0;
+    margin-top: auto;
+    width: 100%;
+}
+.columna{
+    position: relative;
+    margin-left: 10%;
+    width: 20%;
+    display: inline-block;
+    height: 100%;
+    font-size: 20px;
+    padding: 10px;
+    text-align: center;
+}
+.columna a, li{
+    text-decoration: none;
+    list-style-type:none ;
+    margin: 10px 0px 10px 0px;
+    color: darkslategray;
+}
+.referencias{
+    margin-top: px;
+    color: #75975E;
+    font-weight: 600;
+}
+.redes{
+    width: 30px;
+    height: 30px;
+    margin-top: 20px;
+}
+#BloqueadorNivea125ml{
+    width: 100px;
+}
+#Omeprazol{
+    width: 150px;
+}
+#listerinecoolmint250ml{
+    width: 200px;
+}
+#VitaminaCEmergen-C{
+    width: 200px;
+}
+#ProteinaKabi300g{
+    width: 200px;
+}
+#C-BoostGomitas{
+    width: 150px;
+}
+
+body, html {
+    height: 100%;
+    margin: 0;
+    display: flex;
+    flex-direction: column;
+}
+
+.cajacontenido1 {
+    background-color: #ffffff;
+    padding: 20px;
+    margin-bottom: 20px;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); /* Sombra para profundidad */
+    display: flex;
+    flex-direction: column;
+    max-width: 600px; /* Ancho máximo más amplio */
+    width: 90%; /* Ancho flexible que ocupa la mayor parte de la pantalla */
+    text-align: center;
+  }
+  
+  .cajacontenido1 img {
+    align-self: center;
+    max-width: 100%;
+    height: auto;
+    margin-bottom: 15px;
+  }
+  
+  .cajacontenido1 label {
+    font-weight: bold;
+    margin-bottom: 5px;
+  }
+  
+  .cajacontenido1 input[type="text"] {
+    padding: 8px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    margin-bottom: 15px;
+    width: 100%;
+    box-sizing: border-box;
+    text-align: center;
+  }
+
+
+  .cajacontenido1 button {
+    padding: 10px;
+    background-color:#658354; 
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 16px;
+    font-weight: bold;
+    transition: background-color 0.3s ease;
+  }
+  
+  .cajacontenido1 button:hover {
+    background-color: #75975e;
+  }
+  
+  .cajacontenido1 input[type="text"]:disabled {
+    background-color: #ffffff;
+    color: #666;
+    cursor: not-allowed;
+    font-size: 13px;
+  }
+
+.container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 1;
+}
+
+
+.container2 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 50vh;
+  }
+  
+
+  .cajacontenido2 {
+    width: 90%; /* Anchura larga para el contenedor */
+    max-width: 800px; /* Ancho máximo para pantallas grandes */
+    background-color: #ffffff;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    text-align: center; /* Centramos todo el texto */
+    margin: 10px 0;
+  }
+  
+  .cajacontenido2 h3 {
+    margin-top: 0;
+    color: #333333;
+    font-size: 19px;
+    font-weight: bold;
+  }
+  
+  .cajacontenido2 p {
+    font-size: 15px;
+    color: #333333;
+    line-height: 1.6;
+    margin: 15px 0;
+  }
+  
+
+  .cajacontenido2 img {
+    max-width: 40%;
+    height: auto;
+    margin-top: 20px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+  }
+  

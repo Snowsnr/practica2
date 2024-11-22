@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>Principal</title>
+	<link rel="stylesheet" type="text/css" href="diseño.css">
+	<link href='https://fonts.googleapis.com/css?family=Anek Gurmukhi' rel='stylesheet'>
+</head>
+<body>
+    <div id="head">
+		<div id="cabecera">
+			PRÁCTICA NO. 2-3
+		</div>
+		<div id="menu2">
+			<a href="index.html">CÁLCULO</a>
+			<a href="objetivo.html">OBJETIVO</a>
+			<a href="descrip.html">DESCRIPCIÓN</a>
+		</div>
+    </div> 
+	
+	<div class="container">
+		<div class="cajacontenido1">
+			<img src="img2.png"/>
+	
+
+		</div>
+	</div>
+
+	<div class="container">
+		<div class="cajacontenido1">
+			
+			<label for="numeroMaterial">
+				Pareja de materiales para el coeficiente de friccion estatica:
+			</label>
+			<input type="text" name="numeroMaterial" id="numeroMaterial">
+			
+			<label for="angulo">
+				Angulo de inclinacion:
+			</label>
+			<input type="text" name="angulo" id="angulo"/>
+             
+			<button name=CalcularEstatica onclick="calcularEstatica()">Calcular si es angulo critico para estatica</button>
+        
+		</div>
+	</div>
+
+	<div class="container">
+		<div class="cajacontenido1">
+			<label for="materialObjeto2">
+				Pareja de materiales para el coeficiente de friccion dinamica:
+			</label>
+			<input type="text" name="materialObjeto" id="materialObjeto"/>
+
+			<label for="angulodinamica">
+				Angulo para el coeficiente de friccion dinamica:
+			</label>
+			<input type="text" name="angulodinamica" id="angulodinamica"/>
+
+			<button name="calcular2" id="calcular2" onclick="calcularDinamica()">Calcular si es angulo critico para dinamica</button>
+
+
+		</div>
+	</div>
+	<div class="container"/>
+		<div class="cajacontenido1">
+
+
+			<label for="Resultado1">
+				¿Es angulo critico?
+			</label>
+			<input type="text" value="" id="resultado" style="font-weight: bold;" disabled>
+
+		</div>
+	</div>	
+
+	<div class="container"/>
+		<div class="cajacontenido1">
+
+
+			<label>
+				c) Si el angulo de inclinación para el caso b) con coeficiente de friccion dinamica, se reduce a un valor menor que el angulo critico encontrado en a) para el coeficiente
+				de friccion estatica, puede encontrarse un ángulo nuevo tal que el bloque se mueve hacia abajo por el plano con rapidez constante de nuevo como una partícula en 
+				equilibrio donde el nuevo angulo critico sea menor al antiguo
+			</label>
+			
+
+		</div>
+	</div>	
+
+	<div id="piedepagina">
+		
+			<div class="columna">
+				<div class="referencias">INTEGRANTES</div>
+				<ul>
+					<li>Reyes Salazar Diego</li>
+					<li>Guerra Salinas Edgar Rafael</li>
+				</ul>
+			</div>
+			
+				<div class="columna">
+
+				<ul>
+					<li>Suarez Martinez Jesus Antonio</li>
+					<li>Lobato Ramírez Ulises Uriel</li>
+					<li>Apreza Rodríguez Emiliano </li>
+				</ul>
+	
+				</div>
+		<div class="columna">
+				<div class="referencias">GRUPO Y MATERIA</div>
+				<ul>
+					<li>1BV2</li>
+					<li>Mecánica y Electromagnetismo</li>	
+				</ul>
+			</div>
+		</div>
+		<script src="./js/back.js"></script>
+</body>
+</html>
